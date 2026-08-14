@@ -1,0 +1,35 @@
+# Environments
+venv/
+.venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Mosquitto (MQTT broker) runtime data & secrets
+mqtt/data/
+mqtt/log/
+mqtt/config/pwfile
+
+# InfluxDB / Telegraf local data
+influxdb/data/
+telegraf/data/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
